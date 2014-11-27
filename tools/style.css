@@ -2,6 +2,7 @@
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
+/*
 html { 
   background: url(../images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -9,16 +10,29 @@ html {
   -o-background-size: cover;
   	background-size: cover;
 }
+*/
 
-
+/* basic settings */
 html,body{
 margin:0;
 padding:0;
 font-family: Helvetica Neue, Helvetica, Arial;
 color: #ffffff;
 height: 100%;
+background-color: #404040;
 }
 
+footer {
+            background-color: #333;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+			text-align: center;
+			color: #404040;
+        }
+
+
+/*
 #transy{
 width: 100%;
 height: 100%;
@@ -29,31 +43,44 @@ filter: alpha(opacity=80);
 position: absolute;
 z-index: -1;
 }
+*/
 
+
+
+/* center it */
 #wrapper{
 width: 940px;
 margin: 0 auto;
 }
 
+
+/* adds right number of spaces in paragraph vertically */
 .logo{
 width: 940px;
 float: left;
 margin-top: 30px;
-margin-bottom: 100px;
+margin-bottom: 28px;
 }
 
+/* ALVI HABIB */
 h1{
 text-align: center;
-font-size: 150px;
+font-size: 111px;
 }
 
+/* Undergrad @ UofT */
 h2{
 text-align: center;
-font-size: 20px;
+font-size: 31px;
 font-weight: 100;
 margin-top: 10px;
+}cx
+
+.cursive{
+font-size: 50px;
 }
 
+/*
 h2 strong.one{
 width: 40px;
 height: 1px;
@@ -63,9 +90,10 @@ margin-left: -50px;
 margin-top: 10px;
 opacity: 0.5;
 filter: alpha(opacity=50);
-
 }
+*/
 
+/*
 h2 strong.two{
 width: 40px;
 height: 1px;
@@ -74,10 +102,9 @@ position: absolute;
 margin-left: 10px;
 opacity: 0.5;
 filter: alpha(opacity=50);
-
 margin-top: 10px;
 }
-
+*/
 
 .content{
 width: 940px;
@@ -88,15 +115,16 @@ float: left;
 text-align: center;
 }
 
+
 p.big_text{
 font-size: 27px;
 margin-bottom: 10px;
 }
 
 p.small_text{
-font-size: 20px;
+font-size: 21px;
+color: #FFFFFF
 }
-
 
 
 
