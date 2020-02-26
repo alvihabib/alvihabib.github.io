@@ -58,6 +58,17 @@ body {
 
   /* Card animation */
   animation: hvr 5s infinite ease-in-out;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+/* Resize on mobile */
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 317px;
+    height: 200px;
+    border-radius: 11px;
+  }
 }
 
 .social {
